@@ -1,0 +1,210 @@
+/* ===================
+   Global Layout
+   =================== */
+body {
+    background: linear-gradient(135deg, #f4f7fb, #e8edf3);
+    font-family: 'Poppins', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #5d6d7e;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 30px;
+}
+
+.layout-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+/* ===================
+   Control Panel
+   =================== */
+#control-panel {
+    background: white;
+    border-radius: 20px;
+    padding: 25px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    min-width: 320px;
+}
+
+#control-panel>* {
+    margin-bottom: 10px;
+}
+
+#control-panel label {
+    font-weight: 600;
+    color: #2c3e50;
+    margin-right: 12px;
+    display: inline-block;
+    margin-bottom: 7px;
+}
+
+/* ===================
+   Tabs
+   =================== */
+.tab {
+    border-radius: 12px;
+    background: white;
+    padding: 12px 20px;
+    margin: 0 10px;
+    transition: all 0.3s ease;
+}
+
+input[type="checkbox"]:checked {
+    accent-color: #3498db;
+}
+
+.tab:hover {
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.2);
+    background-color: #f0f8ff;
+}
+
+.tab--selected {
+    background-color: #e1f0ff;
+    font-weight: bold;
+}
+
+/* ===================
+   Dropdowns and Inputs
+   =================== */
+.Select-control {
+    border: 2px solid #3498db;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    height: 15px;
+}
+
+/* .Select-control:hover {
+    border-color: #2980b9;
+    
+} */
+.Select-control:hover {
+    border-color: #3498db;
+}
+
+
+.Select-menu-outer {
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    border: 1px solid #d0d0d0;
+    background: #ffffff;
+}
+
+/* Checklist */
+.dash-checklist label {
+    font-weight: 500;
+    color: #34495e;
+}
+
+/* ===================
+   Range Slider
+   =================== */
+.rc-slider {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.rc-slider-rail {
+    background-color: #e0e0e0;
+}
+
+.rc-slider-track {
+    background-color: #3498db;
+    height: 4px;
+}
+
+.rc-slider-handle {
+    border: 2px solid #3498db;
+    background: white;
+    width: 18px;
+    height: 18px;
+    margin-top: -7px;
+    transition: transform 0.2s ease;
+}
+
+.rc-slider-handle:hover {
+    border-color: #1d78c1;
+    box-shadow: 0 0 0 8px rgba(52, 152, 219, 0.2);
+    transform: scale(1.2);
+}
+
+/* Hide the ugly black line */
+.rc-slider-mark {
+    display: none;
+}
+
+/* RangeSlider marks under */
+.range-labels {
+    text-align: center;
+    color: #7f8c8d;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+/* ===================
+   Tabs Content (Graph Area)
+   =================== */
+.tabs-content-narrow {
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    max-width: 1000px;
+}
+
+.tabs-content-wide {
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    max-width: 1200px;
+}
+
+/* ===================
+   Footer
+   =================== */
+.footer {
+    text-align: center;
+    font-size: 12px;
+    color: #95a5a6;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+
+.tabs-content-narrow {
+    background: white;
+    margin-top: 16px;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    max-width: 1000px;
+}
+
+.tabs-content-wide {
+    background: white;
+    margin-top: 20px;
+    width: 93%;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    max-width: 1000px;
+    /* margin: auto; */
+
+}

@@ -1,0 +1,13 @@
+Copy code from jupyter notebook.
+If using external styling then change:
+    app = dash.Dash(__name__)
+    to
+    app = dash.Dash(__name__, external_stylesheets=["styles.css"])
+if your virtual machine is not activated yet:
+    open a command prompt/ terminal
+    navigate to "miniconda3\Scripts"
+    (for example C:\Users\Public\miniconda3\envs)
+    run "activate <your_env_name>"
+Navigate to your project directory
+Run the Python script via 'python app.py'
+Open your web browser and go to http://127.0.0.1:8051 to see the app running.
