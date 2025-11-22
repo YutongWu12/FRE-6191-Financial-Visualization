@@ -1,0 +1,41 @@
+/* All Concepts Combined */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.grid-item, .flex-item {
+  background-color: #4caf50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.animated-box {
+  background-color: #f44336;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  animation: move 2s infinite;
+}
+
+@keyframes move {
+  0% { transform: translateX(0); }
+  50% { transform: translateX(50px); }
+  100% { transform: translateX(0); }
+}
+
+i {
+  font-size: 24px;
+  margin-right: 10px;
+}

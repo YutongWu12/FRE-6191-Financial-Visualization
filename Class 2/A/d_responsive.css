@@ -1,0 +1,28 @@
+/* Flexbox layout */
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box {
+    background-color: lightblue;
+    padding: 20px;
+    flex-basis: 30%;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Responsive design: 2 columns for small screens */
+@media screen and (max-width: 768px) {
+    .box {
+        flex-basis: 45%;
+    }
+}
+
+/* Responsive design: 1 column for very small screens */
+@media screen and (max-width: 480px) {
+    .box {
+        flex-basis: 100%;
+    }
+}

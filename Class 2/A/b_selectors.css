@@ -1,0 +1,19 @@
+/* Class and ID Selectors */
+#headerDiv {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+.box {
+    background-color: lightyellow;
+    padding: 20px;
+}
+
+/* Inline styles override external styles */
+div[style] {
+    border: 2px solid red;
+}
+
+/* div{
+    border: 2px solid red;
+} */

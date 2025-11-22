@@ -1,0 +1,31 @@
+/* CSS Variables and Responsive Typography */
+:root {
+    --primary-color: #4caf50;
+    --secondary-color: #f44336;
+    --font-size-base: 1rem;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: var(--primary-color);
+    font-size: var(--font-size-base);
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  .box {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    :root {
+      --font-size-base: 0.8rem;
+    }
+  }
+  

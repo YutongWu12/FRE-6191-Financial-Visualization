@@ -1,0 +1,15 @@
+/* Flexbox Layout Example */
+.flex-container {
+    display: flex;
+    justify-content: space-around; /* Space between items */
+    align-items: center;           /* Align items vertically */
+  }
+  
+  .flex-item {
+    background-color: #f1f1f1;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    flex-grow: 1;
+  }
+  

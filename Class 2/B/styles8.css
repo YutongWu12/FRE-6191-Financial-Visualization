@@ -1,0 +1,27 @@
+/* CSS Transitions & Animations */
+.transition-box {
+    background-color: #4caf50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .transition-box:hover {
+    background-color: #f44336;
+  }
+  
+  .animated-box {
+    background-color: #f44336;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    animation: move 2s infinite;
+  }
+  
+  @keyframes move {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(10px); }
+    100% { transform: translateX(0); }
+  }
+  

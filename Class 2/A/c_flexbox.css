@@ -1,0 +1,17 @@
+/* Flexbox layout */
+.flex-container {
+    display: flex;
+    justify-content: space-between; /* Items spread out with space between */
+    align-items: center; /* Vertically center items */
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+}
+
+.box {
+    background-color: lightcoral;
+    padding: 20px;
+    flex-grow: 1; /* Allow items to grow to fill space */
+    flex-shrink: 1; /* Allow items to shrink */
+    flex-basis: 100px; /* Start with 100px width */
+    text-align: center;
+    margin: 10px;
+}

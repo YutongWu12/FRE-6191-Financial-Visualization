@@ -1,0 +1,24 @@
+/* Basic CSS Styling for HTML Elements */
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    background-color: #2b52a5;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+#specialDiv {
+    background-color: #e0f7fa;
+    padding: 15px;
+    border: 2px solid #00796b;
+}

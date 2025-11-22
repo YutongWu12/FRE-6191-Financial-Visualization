@@ -1,0 +1,27 @@
+/* List and Layout Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fafafa;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  .box {
+    background-color: #ccc;
+    padding: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  

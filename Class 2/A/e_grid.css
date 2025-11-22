@@ -1,0 +1,18 @@
+/* Grid Layout */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two columns */
+    grid-template-rows: auto;
+    grid-gap: 10px;
+}
+
+.grid-item {
+    background-color: lightgreen;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Example of grid-item spanning multiple columns */
+.grid-item:nth-child(1) {
+    grid-column: span 2; /* First item spans both columns */
+}

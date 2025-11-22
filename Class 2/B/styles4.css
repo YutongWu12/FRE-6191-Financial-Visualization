@@ -1,0 +1,16 @@
+/* Class vs Tag Styling */
+h1 {
+    color: darkblue;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .box {
+    background-color: #ffcccc;
+    padding: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
